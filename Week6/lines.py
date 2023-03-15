@@ -7,8 +7,7 @@ def main():
 
      # If given valid CLA, print the total number of lines of code in that file
      if is_valid_argument(sys.argv):
-          lines = read_lines(sys.argv[1])
-          print(count_lines(lines))
+        print(count_lines(read_lines(sys.argv[1])))
 
      # Else if no file has been given, raise an exception
      else:
