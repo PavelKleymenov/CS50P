@@ -1,4 +1,4 @@
-мmport sys
+import sys
 from os.path import splitext
 from PIL import Image, ImageOps
 
