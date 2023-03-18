@@ -1,4 +1,4 @@
-мmport sys
+import sys
 from os.path import splitext
 from PIL import Image, ImageOps
 
@@ -10,7 +10,7 @@ def main():
     if is_valid(sys.argv):
         overlay(sys.argv[1], sys.argv[2])
 
-    # If though, no file has been provided, throw an error
+    # If though, no such file has been provided, throw an error
     else:
         raise FileNotFoundError
 
