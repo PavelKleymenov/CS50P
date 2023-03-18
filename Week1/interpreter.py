@@ -22,10 +22,10 @@ def interpreter():
     elif y == "-":
         print(f"{x-z:.1f}")
 
-    if y == "*":
+    elif y == "*":
         print(f"{x*z:.1f}")
 
-    if y == "/":
+    elif y == "/":
         print(f"{x/z:.1f}")
         
         
